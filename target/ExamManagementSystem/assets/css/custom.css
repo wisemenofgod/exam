@@ -1,0 +1,9 @@
+/* Write your custom CSS here */
+
+#myQuestion tr td {
+    overflow: hidden;
+    text-overflow: ellipsis; /* 超出部分以省略号显示 */
+    white-space: nowrap;
+    width: 20em; /* 用px单位亦可行 */
+}
+
